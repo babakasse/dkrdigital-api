@@ -1,5 +1,5 @@
 {
-    "name": "symfony/skeleton",
+    "name": "shopauclick/api",
     "type": "project",
     "license": "MIT",
     "description": "A minimal Symfony project recommended to create bare bones applications",
@@ -10,12 +10,12 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "runtime/frankenphp-symfony": "^0.2.0",
-        "symfony/console": "7.0.*",
-        "symfony/dotenv": "7.0.*",
+        "symfony/console": "7.2.*",
+        "symfony/dotenv": "7.2.*",
         "symfony/flex": "^2",
-        "symfony/framework-bundle": "7.0.*",
-        "symfony/runtime": "7.0.*",
-        "symfony/yaml": "7.0.*"
+        "symfony/framework-bundle": "7.2.*",
+        "symfony/runtime": "7.2.*",
+        "symfony/yaml": "7.2.*"
     },
     "config": {
         "allow-plugins": {
@@ -63,7 +63,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "7.0.*",
+            "require": "7.2.*",
             "docker": true
         }
     },
